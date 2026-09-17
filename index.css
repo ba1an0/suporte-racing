@@ -1,0 +1,68 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Container principal do conteúdo */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Estilo dos cartões de tutorial */
+.tutorial {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tutorial h2 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+/* Estilo para a lista ordenada (passo a passo) */
+.tutorial ol {
+    padding-left: 20px;
+}
+
+.tutorial li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para deixar o texto em negrito mais destacado */
+.tutorial strong {
+    color: #d9534f;
+}
+
+/* Design Responsivo: Ajustes para telas menores (celulares) */
+@media (max-width: 600px) {
+    main {
+        padding: 0 10px;
+    }
+    
+    .tutorial {
+        padding: 20px;
+    }
+}
